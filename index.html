@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+ width: fit-content;
+
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+   background-color: #D4D4D4;
+  color: Blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <h3>Horizontal Navigation Bar</h3>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">Java</a></li>
+            <li><a href="#contact">HTML</a></li>
+              <li><a href="#contact">CSS</a></li>
+              
+          </ul>
+          
+           
+</body>
+</html>
